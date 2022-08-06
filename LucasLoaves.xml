@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="LucasLoaves.xsl"?>
+
+<!DOCTYPE LucasLoaves[
+	<!ELEMENT LucasLoaves (ShopName, Item*)>
+	<!ELEMENT ShopName (#PCDATA)>
+	<!ELEMENT Item (Name, Price, Description)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Price (#PCDATA)>
+	<!ELEMENT Description (#PCDATA)>
+]>
+
+<LucasLoaves>
+	
+	<ShopName>Luca's Loaves</ShopName>
+	
+	<Item>
+		<Name>Sourdough White</Name>
+		<Price>$7.00</Price>
+		<Description>Our standard sourdough.</Description>
+	</Item>
+	
+	<Item>
+		<Name>Sourdough Rye</Name>
+		<Price>$8.00</Price>
+		<Description>Sourdough created with 50% rye flour.</Description>
+	</Item>
+	
+	
+	<Item>
+		<Name>Sourdough Spelt</Name>
+		<Price>$9.00</Price>
+		<Description>Sourdough created with 100% spelt flour.</Description>
+	</Item>
+	
+	
+	<Item>
+		<Name>Sourdough White</Name>
+		<Price>$9.50</Price>
+		<Description>Sourdough including a mixture of yummy seeds.</Description>
+	</Item>
+	
+</LucasLoaves>
