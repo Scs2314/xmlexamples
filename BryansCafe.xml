@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="BryansCafe.xsl"?>
+
+<!DOCTYPE BryansCafe[
+	<!ELEMENT BryansCafe (ShopName, Item*)>
+	<!ELEMENT ShopName (#PCDATA)>
+	<!ELEMENT Item (Name, Price, Description)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Price (#PCDATA)>
+	<!ELEMENT Description (#PCDATA)>
+]>
+
+<BryansCafe>
+	
+	<ShopName>Bryan's Cafe</ShopName>
+	
+	<Item>
+		<Name>Beetroot and feta salad</Name>
+		<Price>$15.00</Price>
+		<Description>Suitable for vegetarians, made with fresh beetroot.</Description>
+	</Item>
+	
+	<Item>
+		<Name>Sourdough Rye Sandwich</Name>
+		<Price>$18.00</Price>
+		<Description>Cheese and salad sandwich made with organic, sourdough rye bread.</Description>
+	</Item>
+	
+	
+	<Item>
+		<Name>Spinach Pie and Salad</Name>
+		<Price>$20.00</Price>
+		<Description>Tasty pie with salad.</Description>
+	</Item>
+	
+	
+	<Item>
+		<Name>Feta pancakes with salad</Name>
+		<Price>$19.50</Price>
+		<Description>Tasty pancake filled with feta and salad.</Description>
+	</Item>
+	
+</BryansCafe>
